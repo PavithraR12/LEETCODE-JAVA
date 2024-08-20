@@ -1,11 +1,11 @@
 import java.util.HashMap;
-class Solution 
+class TwoSum
 {
     public static void main(String args[]) 
     {
         int target = 9;
         int[] nums = {2, 7,1,8, 11, 15};
-        Solution solution = new Solution(); // Create an instance of the Solution class
+        TwoSum solution = new TwoSum(); // Create an instance of the Solution class
         int[] result = solution.twosum(nums, target); // Call the twosum method  // Print the result
         if (result != null) {
             System.out.println("Indices: " + result[0] + ", " + result[1]);
